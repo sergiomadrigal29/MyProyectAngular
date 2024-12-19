@@ -1,0 +1,19 @@
+div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin: 20px;
+}
+.boton {
+  display: flex; /* Flexbox para organizar los botones */
+  flex-direction: column; /* Alineación en columna */
+  justify-content: center; /* Centra los botones verticalmente dentro del contenedor */
+  align-items: center; /* Centra los botones horizontalmente */
+  gap: 10px; /* Espaciado entre los botones */
+  margin: 20px 0; /* Espaciado externo */
+}
+
+button:hover {
+  background-color: blue;
+}
